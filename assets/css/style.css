@@ -1,0 +1,40 @@
+.logo {
+    width: 250px;
+}
+
+.titulo {
+    text-align: left;
+}
+
+.descricao-conteudo {
+    font-size: 17px !important;
+    max-width: 100% !important;
+}
+
+.titulo span {
+    font-weight: bold;
+    color: #3489f3;
+}
+
+.descricao span {
+    font-weight: bold;
+    color: #3489f3;
+    font-size: 40px;
+}
+
+.menu:hover span{
+    display: block;
+}
+.menu span {
+    border-radius: 10px 0px 10px 10px;
+    padding: 6px;
+    position: absolute;
+    right: 30px;
+    background: #3489f3;
+    max-width: 300px;
+    width: 249px;
+    font-weight: bold;
+    margin-top: -10px;
+    min-width: 100px;
+    display: none;
+}
